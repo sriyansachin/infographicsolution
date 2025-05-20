@@ -15,4 +15,10 @@
 		<div id="root"></div>
 		<script type="module" src="/src/main.jsx"></script>
 	</body>
+	<script>
+  if(window.location.pathname !== '/' && window.location.pathname !== '/index.html'){
+    window.location.href = '/';  // redirect to home page
+  }
+</script>
+
 </html>
