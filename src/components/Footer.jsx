@@ -94,7 +94,7 @@ const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-border/50 text-center text-sm">
           <p>&copy; {currentYear} Infographic Solution. All rights reserved.</p>
-          <p className="mt-1">Designed & Developed with by <a href="https://horizons.hostinger.com" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary hover:underline">Hostinger Horizons</a>.</p>
+          <p className="mt-1">Designed & Developed with by Infographic Solution.</p>
         </div>
       </div>
     </footer>
