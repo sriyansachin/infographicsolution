@@ -144,4 +144,10 @@ window.fetch = function(...args) {
 		<div id="root"></div>
 		
 	</body>
+	<script>
+  if(window.location.pathname !== '/' && window.location.pathname !== '/index.html'){
+    window.location.href = '/';  // redirect to home page
+  }
+</script>
+
 </html>
